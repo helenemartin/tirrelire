@@ -16,6 +16,9 @@ gem 'rails_12factor', group: :production
 
 # Bootstrap
 gem 'bootstrap-sass'
+
+# Use stripe 
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
